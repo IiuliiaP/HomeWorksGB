@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:inputType="text"
+        android:text="Введите ваше сообщение"
+        android:textSize="25sp"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Введите ваше имя"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="Введите номер"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="Введите вашу почту"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="Введите пароль"/>
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
